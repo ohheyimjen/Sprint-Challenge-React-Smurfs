@@ -62,7 +62,7 @@ Follow these steps to set up and work on your project:
 - [X] After your API is up and running, you can open chrome and type in `http://localhost:3333/smurfs`. You should see an Array `[]` with a smurf returned to you. This is an array that your **API** will be using to store our Smurf Data.
 - [X] **LOOK** at your `village` directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
 - [X] **cd** into `village` and run `yarn install or npm install` to retrieve the client side dependencies.
-- [ ] **RUN** `yarn start or npm start` to fire up your React application.
+- [X] **RUN** `yarn start or npm start` to fire up your React application.
 
 Follow these steps for completing your project:
 
@@ -77,9 +77,9 @@ The MVP of this project will be broken up between 2 stages. Follow each step and
 
 Construct your Components to build a Single Page Application. Keep your components separate and design them as if they are pages before adding in your Router.
 
-- [ ] Construct an AXIOS request to retrieve an array all the Smurfs in the Smurf DB simply write a `GET` to the endpoint `/smurfs`.
-- [ ] Display those smurfs in a list on the screen.
-- [ ] Construct an AXIOS request to `POST` to add a Smurf to the Smurf DB you'll need all three fields.
+- [X] Construct an AXIOS request to retrieve an array all the Smurfs in the Smurf DB simply write a `GET` to the endpoint `/smurfs`.
+- [X] Display those smurfs in a list on the screen.
+- [X] Construct an AXIOS request to `POST` to add a Smurf to the Smurf DB you'll need all three fields.
 - [ ] Create a form that will allow users to add Smurfs to the Smurf DB.
 - [ ] If a Smurf is created correctly, you should see a response that is an array of Smurfs with unique id's assigned to each Smurf.
 
